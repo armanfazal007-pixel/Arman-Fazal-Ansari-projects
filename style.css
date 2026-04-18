@@ -1,0 +1,69 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #0f172a;
+color: white;
+}
+
+header {
+background: #020617;
+padding: 15px 30px;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+gap: 20px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+}
+
+.hero {
+text-align: center;
+padding: 80px 20px;
+background: linear-gradient(to right, #2563eb, #7c3aed);
+}
+
+section {
+padding: 50px 20px;
+max-width: 900px;
+margin: auto;
+}
+
+h2 {
+margin-bottom: 20px;
+}
+
+.skill-box span {
+display: inline-block;
+background: #1e293b;
+padding: 10px 15px;
+margin: 5px;
+border-radius: 5px;
+}
+
+.project {
+background: #1e293b;
+padding: 20px;
+margin-bottom: 15px;
+border-radius: 8px;
+}
+
+.project a {
+color: #38bdf8;
+}
+
+footer {
+text-align: center;
+padding: 20px;
+background: #020617;
+}
